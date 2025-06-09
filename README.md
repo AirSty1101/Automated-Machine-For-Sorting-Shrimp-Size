@@ -233,39 +233,6 @@ Large shrimp: 12
 - Includes object tracking to prevent duplicate counting
 - Real-time data logging for data safety
 
-## System Requirements
-
-- Python 3.7+
-- OpenCV 4.0+
-- Ultralytics YOLOv8
-- Raspberry Pi OS (for GPIO control)
-- Sufficient processing power for real-time video processing
-
-## File Structure
-
-```
-project/
-├── shrimp_sorting_system.py      # Main sorting system
-├── How_ShrimpSorter_Works.py     # Testing version without CSV logging
-├── CheckPixel.py                 # Utility for analyzing shrimp sizes
-├── ShrimpDetection last.pt       # Trained YOLO model
-└── output/                       # Directory for CSV output files
-    ├── shrimp_sorting_data_*.csv
-    └── shrimp_sorting_summary_*.csv
-```
-
-## Contributing
-
-1. Fork the repository
-2. Create a feature branch
-3. Commit your changes
-4. Push to the branch
-5. Create a Pull Request
-
-## License
-
-This project is licensed under the MIT License - see the LICENSE file for details.
-
 # Shrimp Sorting System
 
 ## คำอธิบาย
